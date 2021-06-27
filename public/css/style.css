@@ -1,0 +1,66 @@
+body {
+    letter-spacing: -0.02em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    font-size: 0.8rem;
+}
+
+pre code {
+    background-color: #333;
+    border-radius: 5px;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    overflow-y: auto;
+}
+
+.code-link {
+    text-decoration: none !important;
+}
+
+.link-color{
+    color: inherit;
+}
+
+.comment{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.list span {
+    cursor: pointer;
+}
+
+.list span:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f08a";
+    margin-right: 0.25rem !important;
+}
+
+.list span.fav:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f004";
+    color: rgb(255, 0, 0);
+    margin-right: 0.25rem !important;
+}
+
+.text-light-bold {
+    font-weight: 600;
+}
+
+.profile-image {
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    width: 39px;
+    height: auto;
+    float: left;
+    margin-right: 7px;
+}
